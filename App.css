@@ -1,3 +1,36 @@
-#child1{
-    background-color: brown;
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+}
+.logo{
+    width: 100px;
+}
+.nav-items{
+    padding: 0px 10px;
+}
+.nav-items>ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+}
+.nav-items >ul > li{
+    padding: 10px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-card {
+    margin: 5px;
+    width: 200px;
+    padding: 5px;
+}
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.res-logo {
+    width: 100%;
 }
